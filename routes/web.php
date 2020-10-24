@@ -1,8 +1,11 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use Laravel\Fortify\Fortify;
+use Laravel\Jetstream\Jetstream;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +36,6 @@ Fortify::registerView(function () {
     $users = DB::select('SELECT teams.id,teams.name,COUNT(team_user.team_id) AS Quota FROM `teams` LEFT JOIN team_user ON teams.id = team_user.team_id WHERE teams.id>1 GROUP BY teams.id');
     return view('auth.register')->with('users',$users);
 });
+
+
+
