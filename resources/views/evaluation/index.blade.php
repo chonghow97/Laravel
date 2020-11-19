@@ -16,7 +16,6 @@
                 <a href="../dashboard">Back</a>
 </button>
             <span class="container">
-                {{$result}}
             </span>
             <div class="bg-white max-w-sm rounded overflow-hidden shadow-lg">
                 <div class="px-6 py-4">

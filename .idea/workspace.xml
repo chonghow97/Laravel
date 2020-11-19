@@ -23,7 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d657c26c-6903-467e-9378-0c2f49f8b51f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/studentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Resources/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Resources/student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/adminDashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/student/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/evaluationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/evaluationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/evaluation/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/evaluation/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/evaluation/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/evaluation/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,11 +170,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hy3sgAM2OEhiPzE43hoP5qeJmj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
@@ -212,6 +225,11 @@
       <workItem from="1603428113421" duration="20136000" />
       <workItem from="1603452686080" duration="18601000" />
       <workItem from="1603518301667" duration="4778000" />
+      <workItem from="1603613569347" duration="6672000" />
+      <workItem from="1603754658312" duration="9133000" />
+      <workItem from="1603893281010" duration="1531000" />
+      <workItem from="1605341019154" duration="15979000" />
+      <workItem from="1605494647563" duration="21855000" />
     </task>
     <servers />
   </component>
@@ -228,6 +246,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="628" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601012261490">
@@ -270,11 +292,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="647" y="118" width="626" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603434689065" />
-    <state x="443" y="158" width="672" height="160" key="search.everywhere.popup" timestamp="1603529871195">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup" timestamp="1605619038169">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="443" y="158" width="672" height="160" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603529871195" />
-    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603478553786" />
+    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605619038169" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
